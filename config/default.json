@@ -1,0 +1,25 @@
+{
+  "logger": {
+    "source": true,
+    "console": {
+      "enable": true,
+      "level": "trace"
+    },
+    "file": {
+      "enable": false,
+      "level": "info",
+      "dir": "./log"
+    },
+    "server": {
+      "enable": false,
+      "level": "trace",
+      "url": "0.0.0.0",
+      "port": "9998",
+      "type": "elk"
+    },
+    "ringBuffer": {
+      "enable": true,
+      "size": 10
+    }
+  }
+}

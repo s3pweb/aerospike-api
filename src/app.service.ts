@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as Aerospike from 'aerospike';
-import { LoggingService } from '../utils/logging/logging.service';
+import { LoggingService } from './utils/logging/logging.service';
 import { Stream } from 'stream';
 
 const defaults = {
